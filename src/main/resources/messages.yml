@@ -1,0 +1,17 @@
+hologram:
+  # {time} is replaced by the remaining seconds
+  text: "&c&lDYING: {time}s"
+
+bossbar:
+  reviving: "&e&lREVIVING..."
+
+messages:
+  revived: "&aYou have been revived!"
+  survived-actionbar: "&a&lSURVIVED"
+
+  # Admin commands
+  reload-success: "&aConfiguration reloaded successfully!"
+  toggle-on: "&aPlayerRevive system is now &lENABLED&a."
+  toggle-off: "&cPlayerRevive system is now &lDISABLED&c."
+  no-permission: "&cYou do not have permission to use this command."
+  unknown-command: "&cUnknown argument. Use: /playerrevive <reload|toggle>"

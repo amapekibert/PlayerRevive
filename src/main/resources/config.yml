@@ -1,0 +1,15 @@
+settings:
+  # How many seconds a player stays in the downed state before dying
+  downed-time-seconds: 20
+
+  # Movement speed while downed (0.1 = normal, 0.02 = very slow)
+  crawl-speed: 0.1
+
+  # Radius in blocks where another player can start reviving
+  revive-radius: 3.0
+
+  # How many seconds it takes to revive a player (holding Shift)
+  revive-time-seconds: 4.0
+
+  # How much HP the player has after being revived (2.0 = 1 heart)
+  hp-after-revive: 1.0

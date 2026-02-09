@@ -1,0 +1,17 @@
+name: PlayerRevive
+version: 1.0
+main: org.titago.playerrevive.PlayerRevive
+api-version: 1.21
+author: AMapeKiberT
+depend: []
+folia-supported: true
+
+commands:
+  playerrevive:
+    description: Main command for PlayerRevive plugin
+    usage: /playerrevive <reload|toggle>
+    aliases: [pr, revive]
+permissions:
+  playerrevive.admin:
+    description: Allows using reload and toggle commands
+    default: op
